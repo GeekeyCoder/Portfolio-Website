@@ -108,3 +108,9 @@ section{
     color: var(--main-color);
     margin: 3rem 1.5rem 3rem 0;
 }
+
+.home-content h1 {
+    font-size: 5.6rem;
+    font-weight: 700;
+    line-height: 1.3;
+}
