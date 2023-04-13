@@ -14,7 +14,7 @@
     --bg-color: #1f242d;
     --second-bg-color: #323946;
     --text-color: #fff;
-    --main-color: #0ef;
+    --main-color: #ff007b;
 }
 
 html{
@@ -63,6 +63,28 @@ section{
     scroll-behavior: smooth;
     transition: .3s;
 }
+
+/* .dark-mode-toggle {
+    color: var(--blue);
+    font-size: var(--font-size-lg);
+    cursor: pointer;
+}
+
+.bxs-sun {
+    display: none;
+}
+
+.bxs-moon {
+    display: inline-block;
+}
+
+.dark .bxs-sun {
+    display: inline-block;
+}
+
+.dark .bxs-moon {
+    display: none;
+} */
 
 .navbar a:hover,
 .navbar a.active {
@@ -138,8 +160,8 @@ span {
 
 .social-media a:hover{
     background: var(--main-color);
-    color: var(--second-bg-color);
-    box-shadow: 0 0 1rem var(--main-color);
+    color: #0ef;
+    box-shadow: 0 0 1rem #0ef;
 }
 
 .btn {
@@ -147,7 +169,7 @@ span {
     padding: 1rem 2.8rem;
     background: var(--main-color);
     border-radius: 4rem;
-    box-shadow: 0 0 1rem var(--main-color);
+    box-shadow: 0 0 1rem rgb(0, 200, 255);
     font-size: 1.6rem;
     color: var(--second-bg-color);
     letter-spacing: .1rem;
@@ -370,7 +392,7 @@ span {
 }
 
 .footer-iconTop a:hover {
-    box-shadow: 0 0 1rem var(--main-color);
+    box-shadow: 0 0 1rem #0ef;
 }
 
 .footer-iconTop a i {
